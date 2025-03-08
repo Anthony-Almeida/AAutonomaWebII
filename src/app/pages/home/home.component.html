@@ -1,0 +1,47 @@
+<div class="min-h-screen bg-gradient-to-r from-[#4C4DDC] to-[#9B66D6] flex flex-col items-center justify-center px-6">
+    <!-- Encabezado -->
+    <header class="text-center py-8">
+        <h1 class="text-5xl font-extrabold text-blue-500 drop-shadow-lg">Bienvenido a practica con Guardianes</h1>
+        <p class="text-lg mt-3 font-medium text-blue-500 ">Accede a tu espacio de aprendizaje según tu rol.</p>
+    </header>
+
+    <!-- Diseño Central con Imagen -->
+    <div class="relative mx-auto border-gray-900 bg-gray-900 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-2xl">
+        <div class="w-[148px] h-[18px] bg-gray-900 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+        <div class="h-[46px] w-[3px] bg-gray-900 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+        <div class="h-[46px] w-[3px] bg-gray-900 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+        <div class="h-[64px] w-[3px] bg-gray-900 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+        <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white">
+            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-light.png"
+                class="w-[272px] h-[572px]" alt="">
+        </div>
+    </div>
+
+    <!-- Sección de Opciones -->
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-lg">
+        <a routerLink="/login"
+            class="block bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 text-center hover:scale-105 transition-transform duration-300 hover:bg-blue-100 dark:hover:bg-blue-900">
+            <h2 class="text-2xl font-semibold text-blue-700 dark:text-blue-300">Acceder como Estudiante</h2>
+            <p class="text-gray-600 dark:text-gray-300 mt-2">Consulta tus calificaciones y más.</p>
+        </a>
+
+        <a routerLink="/login"
+            class="block bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 text-center hover:scale-105 transition-transform duration-300 hover:bg-green-100 dark:hover:bg-green-900">
+            <h2 class="text-2xl font-semibold text-green-700 dark:text-green-300">Acceder como Docente</h2>
+            <p class="text-gray-600 dark:text-gray-300 mt-2">Gestiona tus clases y alumnos.</p>
+        </a>
+    </div>
+
+    <!-- Footer Mejorado -->
+    <footer class="mt-12 w-full bg-gray-900 text-gray-300 py-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+            <span class="text-lg font-semibold">© 2025 Guardianes. Todos los derechos reservados.</span>
+            <ul class="flex space-x-6 mt-4 md:mt-0">
+                <li><a href="#" class="hover:text-blue-400 transition-colors">Acerca de</a></li>
+                <li><a href="#" class="hover:text-blue-400 transition-colors">Política de Privacidad</a></li>
+                <li><a href="#" class="hover:text-blue-400 transition-colors">Licencias</a></li>
+                <li><a href="#" class="hover:text-blue-400 transition-colors">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
